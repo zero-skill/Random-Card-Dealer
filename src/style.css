@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+}
+
+.card-header p {
+  font-size: 7rem;
+  padding-left: 5%;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.card-body p {
+  font-size: 10rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 25%;
+  transform: scaleY(-1);
+}
+
+.card-footer p {
+  font-size: 7rem;
+  padding-right: 5%;
+}
